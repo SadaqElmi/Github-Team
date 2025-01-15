@@ -5,7 +5,7 @@ import Header from "./components/Header";
 const Layout = () => {
   return (
     <>
-      <div className="mb-10">
+      <div className="fixed top-0 w-full z-50">
         <Header />
       </div>
       <Outlet />

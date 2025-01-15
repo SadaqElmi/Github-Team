@@ -10,19 +10,29 @@ const Header = () => {
         </div>
         <ul className="flex justify-between items-center gap-10">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="text-white">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/">Products</Link>
+            <Link to="/" className="text-white">
+              Products
+            </Link>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link to="/" className="text-white">
+              Contact
+            </Link>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/" className="text-white">
+              About
+            </Link>
           </li>
         </ul>
-        <button className="">Jion Us</button>
+        <button className="text-white border-2 py-2 px-4 rounded-sm">
+          Jion Us
+        </button>
       </nav>
     </div>
   );
