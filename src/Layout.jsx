@@ -1,15 +1,15 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
-import Header from "./components/header";
+import React from "react";
+import Header from "./components/Header";
 
 const Layout = () => {
   return (
-    <div>
-      <div>
+    <>
+      <div className="mb-10">
         <Header />
       </div>
       <Outlet />
-    </div>
+    </>
   );
 };
 
