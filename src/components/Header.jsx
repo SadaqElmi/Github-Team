@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <nav className="flex justify-around items-center py-2">
         <div className="">
-          <img className="h-16" src="../../public/Images/Logo.png" alt="logo" />
+          <img className="h-16" src="Images/Logo.png" alt="logo" />
         </div>
         <ul className="flex justify-between items-center gap-10">
           <li>
