@@ -13,7 +13,7 @@ function Product_cars() {
           <img
             src={car2}
             alt="Car"
-            className="w-[400px] h-full object-cover absolute right-0 rounded-r-2xl shadow-md"
+            className="w-[300px] h-full object-cover absolute right-0 rounded-r-2xl shadow-md"
           />
           <div className="pl-7 pt-10 w-60">
             <h1 className="text-center pb-2 text-lg text-gray-400 tracking-wide">
@@ -50,7 +50,7 @@ function Product_cars() {
       </div>
 
       {/* Information Section */}
-      <div className="bg-blue-500 h-[200px] w-[81%] ml-[9.5%] rounded-md mt-10 flex justify-center gap-20 items-center py-8 shadow-md">
+      <div className="bg-blue-500 h-[200px] w-[81%] ml-[9.5%] rounded-md mt-10 flex justify-center gap-10 items-center py-8 shadow-md">
         {/* Info Box 1 */}
         <div className="flex items-center gap-4 text-white">
           <FaPaperPlane className="text-4xl" />
