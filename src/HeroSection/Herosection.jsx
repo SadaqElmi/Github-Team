@@ -1,6 +1,6 @@
 
 import Heroimage from './img/lambar.jpeg';
-import './HeroSection.css'; // Import the custom CSS file
+
 
 function HeroSection() {
   return (
