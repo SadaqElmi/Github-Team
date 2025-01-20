@@ -4,8 +4,11 @@ import Faruq from "../components/Faruq";
 import HeroSection from "../HeroSection/Herosection";
 import Mohamed from "../components/Mohamed";
 import H4assoni from "../components/H4assoni";
-import Saphaa from "../components/saphaa";      
+import Saphaa from "../components/saphaa";
+import Advertise from "../components/Advertise";
+import Product_cars from "../components/Product_cars";
 import Foter from "../components/Foter";
+
 
 const Home = () => {
   return (
@@ -15,8 +18,10 @@ const Home = () => {
       <Afnan />
       <Faruq />
       <H4assoni />
-       <Saphaa />
-       <Foter />
+      <Saphaa />
+      <Advertise />
+      <Product_cars />
+      <Foter />
     </div>
   );
 };
