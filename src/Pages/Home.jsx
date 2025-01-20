@@ -3,6 +3,7 @@ import Afnan from "../components/Afnan_com";
 import Faruq from "../components/Faruq";
 import HeroSection from "../HeroSection/Herosection";
 import Mohamed from "../components/Mohamed";
+import CarExperience from "../components/Car_experience";
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
       <HeroSection />
       <Mohamed />
       <Afnan />
+      <CarExperience/>
       <Faruq />
+      
     </div>
   );
 };
