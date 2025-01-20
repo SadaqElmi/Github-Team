@@ -5,6 +5,7 @@ import HeroSection from "../HeroSection/Herosection";
 import Mohamed from "../components/Mohamed";
 import H4assoni from "../components/H4assoni";
 import Saphaa from "../components/saphaa";      
+import Foter from "../components/Foter";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Faruq />
       <H4assoni />
        <Saphaa />
+       <Foter />
     </div>
   );
 };
