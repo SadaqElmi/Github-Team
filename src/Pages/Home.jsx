@@ -4,6 +4,9 @@ import Faruq from "../components/Faruq";
 import HeroSection from "../HeroSection/Herosection";
 import Mohamed from "../components/Mohamed";
 import H4assoni from "../components/H4assoni";
+import Footer from '../components/Footer';
+
+
 
 const Home = () => {
   return (
@@ -13,6 +16,7 @@ const Home = () => {
       <Afnan />
       <Faruq />
       <H4assoni />
+      <Footer />
     </div>
   );
 };
