@@ -35,7 +35,7 @@ function HeroSection() {
                 type="submit"
                 className="px-4 py-2 w-[130px] h-[50px] bg-blue-600 text-white text-center rounded-full hover:bg-blue-700 transition duration-300"
               >
-                Search
+              search
               </button>
             </div>
           </div>
