@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Pages/Home";
-import Products from "./CarProduct/Products";
+import Products from "./pages/Products/Products.jsx";
 
 function App() {
   return (

@@ -1,23 +1,14 @@
-import React from 'react';
-import Header from "../components/Header";
-import Image1 from "../HeroSection/img/lambar.jpeg";
-import Image2 from "../HeroSection/img/lambargino.jpeg";
-import Image3 from "../HeroSection/img/carimgae.jpeg";
+
+import Image1 from "./img/carimgae.jpeg"; // Corrected import path
+import Image2 from "./img/lambar.jpeg"; // Corrected import path
+import Image3 from "./img/lambargino.jpeg";
 import { FaUser, FaCar, FaCog, FaLeaf, FaHeart } from 'react-icons/fa';
-
-
-const Products = () => {
+const CarProducts = () => {
   return (
-   
     <div>
-      <Header />
-      <div>
-    {/* Page Title */}
-    <div className=" py-4  mt-6 m-auto max-w-7xl ">
-      <p className="text-gray-600">Home » Explore </p>
-      <p className="text-2xl   font-bold text-gray-800 inline">cars  Choose the right lease</p>
-    </div>
-      <div className="flex flex-wrap justify-around gap-6 p-6 bg-gray-100 mt-8">
+     
+    
+      <div className="flex flex-wrap justify-around gap-6 p-6 bg-gray-100 mt-6">
         <CarCard
           image={Image1}
           title="lambargino RAV4"
@@ -49,10 +40,12 @@ const Products = () => {
           price="$500/month"
         />
       </div>
-    </div>
-    </div>
-  );
-};
+      </div>
+   
+  )
+}
+
+export default CarProducts
 
 const CarCard = ({ image, title, year, capacity, hybrid, mileage, transmission, price }) => {
   
@@ -105,6 +98,3 @@ const CarCard = ({ image, title, year, capacity, hybrid, mileage, transmission, 
     
   );
 };
-
-
-export default Products;
