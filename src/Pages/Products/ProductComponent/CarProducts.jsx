@@ -1,6 +1,6 @@
 
-import Image1 from "./img/carimgae.jpeg"; // Corrected import path
-import Image2 from "./img/lambar.jpeg"; // Corrected import path
+import Image1 from "./img/carimgae.jpeg"; 
+import Image2 from "./img/lambar.jpeg"; 
 import Image3 from "./img/lambargino.jpeg";
 import { FaUser, FaCar, FaCog, FaLeaf, FaHeart } from 'react-icons/fa';
 const CarProducts = () => {
