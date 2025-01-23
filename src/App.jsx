@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Products from "./pages/Products/Products.jsx";
 
 import HelperCenter from "./Pages/HelperCenter/HelperPage";
+import AboutUS from "./Pages/AboutUs/AboutUS";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="products" element={<Products />} />
             <Route path="HelperPage" element={<HelperCenter />} />
+            <Route path="AboutUS" element={<AboutUS />} />
           </Route>
         </Routes>
       </Router>

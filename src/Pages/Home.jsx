@@ -11,7 +11,6 @@ import Foter from "../components/Foter";
 import CarExperience from "../components/CarExperience";
 import PricingPlans from "../components/PricingPlans";
 
-
 const Home = () => {
   return (
     <div>
