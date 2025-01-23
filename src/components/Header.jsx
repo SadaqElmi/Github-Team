@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 // import carImage from "../HeroSection/img/carimgae.jpeg";
 
@@ -20,12 +19,18 @@ const Header = () => {
           </Link>
         </li>
         <li>
+          <Link to="HelperPage" className="text-black">
+            Helper Center
+          </Link>
+        </li>
+
+        <li>
           <Link to="/" className="text-black">
             Contact
           </Link>
         </li>
         <li>
-          <Link to="/" className="text-black">
+          <Link to="/AboutUS" className="text-black">
             About
           </Link>
         </li>
