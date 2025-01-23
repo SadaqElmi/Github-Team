@@ -1,11 +1,11 @@
 import React from "react";
-import Employe1 from "../assets/employee1.jpg";
-import Employe2 from "../assets/employee2.jpg";
-import Employe3 from "../assets/employee3.jpg";
-import Employe4 from "../assets/employee4.jpg";
-import EMP1 from "../assets/EMP1.jpg";
-import EMP2 from "../assets/EMP2.jpg";
-import EMP3 from "../assets/EMP3.jpg";
+import Employe1 from "../../../assets/employee1.jpg";
+import Employe2 from "../../../assets/employee2.jpg";
+import Employe3 from "../../../assets/employee3.jpg";
+import Employe4 from "../../../assets/employee4.jpg";
+import EMP1 from "../../../assets/EMP1.jpg";
+import EMP2 from "../../../assets/EMP2.jpg";
+import EMP3 from "../../../assets/EMP3.jpg";
 
 import {
   FaFacebook,
