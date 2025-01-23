@@ -8,7 +8,7 @@ import Saphaa from "../components/saphaa";
 import Advertise from "../components/Advertise";
 import Product_cars from "../components/Product_cars";
 import Foter from "../components/Foter";
-import CarExperience from "../CarExperience";
+import CarExperience from "../components/CarExperience";
 import PricingPlans from "../components/PricingPlans";
 
 
