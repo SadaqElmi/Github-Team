@@ -10,6 +10,8 @@ import Product_cars from "../components/Product_cars";
 import Foter from "../components/Foter";
 import CarExperience from "../components/CarExperience";
 import PricingPlans from "../components/PricingPlans";
+import ContactForm from "./Contact";
+
 
 const Home = () => {
   return (
@@ -24,6 +26,7 @@ const Home = () => {
       <Advertise />
       <Product_cars />
       <PricingPlans/>
+      <ContactForm />
       <Foter />
     </div>
   );
