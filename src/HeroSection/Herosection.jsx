@@ -6,8 +6,11 @@ function HeroSection() {
   return (
     <div className="flex items-center justify-between p-20 bg-gray-50 min-h-screen relative">
       <div className="max-w-xl">
-        <h1 className="text-7xl font-bold  mb-4 text-gray-800">
+        {/* <h1 className="text-7xl font-bold  mb-4 text-gray-800">
           The Easy Way to Takeover a Lease
+        </h1> */}
+        <h1 className="text-5xl  mb-4 text-gray-700 leading-tight">
+          THE EASY WAY TO <br /> TAKEOVER A LEASE
         </h1>
         <p className="text-lg text-gray-600 mb-8 ml-6">
           Live in New York, New Jersey, and Connecticut!
